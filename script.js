@@ -1,12 +1,16 @@
 
 const express = require('express');
+const ejs = require('ejs');
+
 const app = express();
+
+app.set('view engine', 'ejs');
 
 const port = 3000;
 
 app.get('/', (request, response)=>{
     response.status(200);
-    response.send("Pagina Principal");
+    response.render('pages/home');
 });
 
 app.get('/contacto', (request, response)=>{

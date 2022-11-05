@@ -1,14 +1,24 @@
-const http = require("http");
-const hostname = '127.0.0.1';
+
+const express = require('express');
+const app = express();
+
 const port = 3000;
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('jfskaljfskla');
+app.get('/', (request, response)=>{
+    response.status(200);
+    response.send("Pagina Principal");
 });
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+app.get('/contacto', (request, response)=>{
+    response.status(200);
+    response.send("Pagina de contacto");
 });
 
+app.get('/productos', (request, response)=>{
+    response.status(200);
+    response.send("Pagina de productos");
+});
+  
+app.listen(port, (error) =>{
+    console.log(`Servidor Iniciado`);
+});

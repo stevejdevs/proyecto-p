@@ -4,6 +4,8 @@ const ejs = require('ejs');
 
 const app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 app.set('view engine', 'ejs');
 
 const port = 3000;

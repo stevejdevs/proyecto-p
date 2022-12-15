@@ -18,6 +18,12 @@ app.get('/contacto', (request, response)=>{
     response.send("Pagina de contacto");
 });
 
+
+app.get('/register', (request, response)=>{
+    response.status(200);
+    response.render("pages/register");
+});
+
 app.get('/productos', (request, response)=>{
     response.status(200);
     response.send("Pagina de productos");

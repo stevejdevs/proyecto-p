@@ -15,6 +15,11 @@ app.get('/', (request, response)=>{
     response.render('pages/home');
 });
 
+app.get('/login', (request, response)=>{
+    response.status(200);
+    response.render('pages/login');
+});
+
 app.get('/contacto', (request, response)=>{
     response.status(200);
     response.send("Pagina de contacto");

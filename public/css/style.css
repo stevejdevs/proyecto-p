@@ -4,3 +4,16 @@
     bottom: 0px;
     width: 100%;
 }
+
+.fondoImagen{
+    background-image: url('../imagen/FondoApp.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

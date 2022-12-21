@@ -1,26 +1,77 @@
- 
-<br>
-<ul class="nav nav-pills">
-  <li class="nav-item">
-  </li>
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Canchas
+<div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+  </svg>
+  <div class="btn-group"> 
+    <input class="form-control" list="datalistOptions" id="exampleDataList"   placeholder=" Buscar ciudad...">
+    
+    <datalist id="datalistOptions">
+      <option value="Monte Grande">
+      <option value="Luis Guillon">
+      <option value="Burzaco">
+      <option value="Jaguel">
+      <option value="llavallol">
+    </datalist>
+  </div>
+  <div class="btn-group">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Elegir día
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item active" href="#">Lunes</a></li>
+        <li><a class="dropdown-item" href="#">Martes</a></li>
+        <li><a class="dropdown-item" href="#">Miercoles</a></li>
+        <li><a class="dropdown-item" href="#">Jueves</a></li>
+        <li><a class="dropdown-item" href="#">Viernes</a></li>
+        <li><a class="dropdown-item" href="#">Sabado</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Domingo</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      Elegir horario
     </button>
-    <ul class="dropdown-menu dropdown-menu-dark">
-      <li><a class="dropdown-item active" href="#">Fut 5</a></li>
-      <li><a class="dropdown-item" href="#">Fut 7</a></li>
-      <li><a class="dropdown-item" href="#">Fut 9</a></li>
-      <li><a class="dropdown-item" href="#">Fut 11</a></li>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="#">10:00 a 11:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">10:00 a 11:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">11:00 a 12:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">12:00 a 13:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">13:00 a 14:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">14:00 a 15:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">15:00 a 16:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">16:00 a 17:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">17:00 a 18:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">18:00 a 19:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">19:00 a 20:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">20:00 a 21:00 hs</a></li>
+      <li><a class="dropdown-item" href="#">21:00 a 22:00 hs</a></li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item" href="#">22:00 a 23:00 hs</a></li>
     </ul>
   </div>
-  <li class="nav-item">
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled"></a>
-  </li>
-  <form class="d-flex" role="search">
-    <input class="form-control me-2" type="Direccion" placeholder="Direccion" aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Buscar</button>
-  </form>
-</ul>
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      Tipo de cancha
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+      <li><a class="dropdown-item active" href="#">Cancha de 5</a></li>
+      <li><a class="dropdown-item" href="#">Cancha de 7</a></li>
+      <li><a class="dropdown-item" href="#">Cancha de 9</a></li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item" href="#">Cancha de 11</a></li>
+    </ul>
+  </div>
+  <button type="button" class="btn btn-success">Buscar cancha</button>
+</div>

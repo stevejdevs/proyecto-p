@@ -4,3 +4,33 @@
     bottom: 0px;
     width: 100%;
 }
+
+.contenedorPrincipal{
+    
+    
+}
+ .contenedorInputs{
+    margin: auto;
+    width: 500px;
+ }
+
+ .textPrincipal{
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ .buttonEnviar{
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    
+ }
+
+ .inputForm{
+    width: 500px;
+
+ }
+
+ .widthBoton{
+    width: 400px;
+ }

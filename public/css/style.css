@@ -4,3 +4,15 @@
     bottom: 0px;
     width: 100%;
 }
+
+.contenedor{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.inputUbi{
+    border: none;
+}
